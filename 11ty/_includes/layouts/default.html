@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+
+<body>
+  {{ content }}
+
+  <script src="{{ '/dist/vendor.js' | url | cacheBuster}}"></script>
+  <script src="{{ '/dist/main.js' | url | cacheBuster}}"></script>
+</body>
+
+</html>

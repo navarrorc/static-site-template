@@ -1,0 +1,14 @@
+{
+  "workbench.colorTheme": "Visual Studio Dark",
+  "editor.fontSize": 18,
+  "workbench.iconTheme": "vs-seti",
+  "editor.formatOnSave": true,
+  "prettier.requireConfig": true,
+  "editor.minimap.enabled": false,
+  "eslint.validate": ["javascript", "javascriptreact", "vue"],
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html"
+  }
+}
