@@ -47,8 +47,12 @@ module.exports = function(eleventyConfig) {
   // Must verify the directory exists to avoid errors
   let distDir = "11ty/dist";
   let imagesDir = "11ty/images";
+  let jsDir = "11ty/js";
+  let cssDir = "11ty/css";
   if (exists(distDir)) eleventyConfig.addPassthroughCopy(distDir);
   if (exists(imagesDir)) eleventyConfig.addPassthroughCopy(imagesDir);
+  if (exists(jsDir)) eleventyConfig.addPassthroughCopy(jsDir);
+  if (exists(cssDir)) eleventyConfig.addPassthroughCopy(cssDir);
 
   return {
     templateFormats: ["md", "njk", "html"],

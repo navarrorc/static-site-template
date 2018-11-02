@@ -5,6 +5,9 @@
 <body>
   {{ content }}
 
+  <script src="js/lib/jquery.min.js"></script>
+  <script src="js/lib/bootstrap.bundle.min.js"></script>
+
   <script src="{{ '/dist/vendor.js' | url | cacheBuster}}"></script>
   <script src="{{ '/dist/main.js' | url | cacheBuster}}"></script>
 </body>
