@@ -28,6 +28,7 @@ module.exports = {
     browser: true,
     node: true,
     commonjs: true,
-    jest: true
+    jest: true,
+    jquery: true
   }
 };
